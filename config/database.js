@@ -39,5 +39,5 @@ module.exports = {
     database,
     host,
     dialect: 'postgres',
-  }
-}
+  },
+};

@@ -16,7 +16,6 @@ app.use((req, res, next) => {
     err.status = 404;
     next(err);
 })
-
 app.use((err, req, res, next) => {
     if (process.env.NODE_ENV === 'production') {
         //todo log error to database
